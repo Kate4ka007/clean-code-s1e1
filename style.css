@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.part-top .matrix {
+.matrix {
   width: 100%;
 }
 
-.part-top .more-info {
+.more-info {
   font-family: fantasy, cursive;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .input,
-.button{
+.button {
   outline: none;
 }
 
@@ -108,7 +108,7 @@
   margin: 0 0 20px;
 }
 
-.input#new-task {
+#new-task {
   width: 318px;
 }
 
@@ -126,7 +126,7 @@
   vertical-align: middle;
 }
 
-.list-item > .input-checkbox {
+.input-checkbox {
   margin: 0 10px;
 }
 
@@ -137,22 +137,22 @@
   width: 226px;
 }
 
-.list-item >    .input-text {
+.input-text {
   width: 226px;
 }
 
-.delete .delete-image {
+.delete-image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete .delete-image:hover {
+.delete-image:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.list#completed-tasks .label {
+#completed-tasks .label {
   text-decoration: line-through;
   color: #888;
 }
